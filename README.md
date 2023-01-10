@@ -1,39 +1,21 @@
-# MediatorManager
-
-### Purpose
-- to be provided
-
-### ApplicationOwner
-- Catherine Obermaier
+Delete this link at the end of the specification process:  
 - [Roadmap to Specification](../../issues/1)
 
-### Services
-- to be provided
+# MediatorManager
 
-### Profiles
-- to be provided
+### Location
+The MediatorManager is part of the OperationSupport.
 
-### Forwardings
-- to be provided
+### Description
+The MediatorManager decides about which MediatorInstanceManager to be addressed for provisioning of a mediator process for an individual device. It is regarding device type and e.g. load balancing criteria. Future versions might support re-allocation of mediator processes based on planned operational activities like replacement of a mediator virtual machine or unplanned events like failure of a mediator virtual machine.
 
-### Open API specification (Swagger)
-- to be provided
+### Relevance
+The MediatorManager is required for connecting devices to the controller.
 
-### CONFIGfile
-- to be provided
-
-### Test Cases (Postman Export) and DATAfile
-- to be provided
-
-### Publication
-- No official publication planned
-
-### Classification
-- Live Network
-- Network Automation
-
-### Open Issue List
-- [MediatorManager/issues](../../issues)
+### Resources
+- [Specification](./spec/)
+- [TestSuite](./testing/)
+- [Implementation](./server/)
 
 ### Comments
-This application will be specified within framework of the workshop series for ApplicationOwners.
+This application will be specified during training for ApplicationOwner.
